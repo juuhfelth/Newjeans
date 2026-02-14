@@ -1,0 +1,12 @@
+.newJeans__container {
+    height: 800px; /* Ou a altura que você desejar */
+    overflow: hidden; 
+    border-radius: 2rem; /* Mova o border-radius para o container */
+}
+
+.newJeans__imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz a imagem preencher o container cortando as bordas, sem distorcer */
+    object-position: center; /* Garante que o foco da foto seja o meio */
+}

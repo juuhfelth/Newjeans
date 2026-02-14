@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import url(reset.css);
+@import url(nav.css);
+@import url(main.css);
+
+:root {
+
+    --cor-primaria: #133E87;
+    --cor-secundaria: #608BC1;
+    --cor--terciaria: #b0cee9;
+    --cor--neutra:#F3F3E0;
+    --cor-preta: black;
+    --cor-branca: white;
+    --fonte-principal: "Poppins", sans-serif;
+    --fonte-secundaria: "Story Script", sans-serif;
+
+}
+
+body {
+    background-color: var();
+    font-family: var(--fonte-principal);
+    padding: 0 3rem;
+}
+
